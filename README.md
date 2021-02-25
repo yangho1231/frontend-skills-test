@@ -1,27 +1,11 @@
-# AngularForm
+Names Exercise
+In this exercise you'll create a simple table to display various names with a calculated score. The requirements are as follows:
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.1.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Use a Frontend Framework of your choice: (Angular, Vue, React, Ember...)
+Create a text input for entering names.
+Names can be submitted through a keypress (enter) or button click.
+Create an table with columns for row number, name, & score. -- This table should show any names added through the input in alphabetical order. -- The third column, score, should display a value calculated on the name. --- The score is defined as: the sum of each alphabetic character of the name multiplied by it's position in the provided list (found in names.json) once sorted in alphabetic order. --- For example, the name COLIN is 938th in the list after being sorted. It has an alphabetic value of 3 + 15 + 12 + 9 + 14 = 53, thus the score would be 938 * 53 = 49714.
+Create a footer at the bottom of the table with a value that is the sum of the entire score column.
+Add the ability to remove any row in the list
+Extra: Create a button that bulk adds the provided list of names to the table names.json
+If you have any extra time feel free to add any extra features or improvements you would like.
